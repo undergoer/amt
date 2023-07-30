@@ -53,7 +53,7 @@ On the command line analyse any <csv-file> in the following way. The placeholde 
 
 ## Format of the csv-file
 
-Ensure there is one column called `respones'. If you do not have such a column then you need to specify which column (\<column-name\>) you want scored with the `-r' argument as follows.
+Ensure there is one column called 'respones'. If you do not have such a column then you need to specify which column (\<column-name\>) you want scored with the `-r` argument as follows.
 
     python analyse-csv.py <csv-file> -r <column-name>
 
