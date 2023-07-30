@@ -47,7 +47,7 @@ Navigate to your `<dir>` and ensure that your conda environment is activated as 
 
 ## Usage
 
-On the command line analyse any <csv-file> in the following way. The placeholde `<csv-file>` is the name of the csv file you want to score.
+On the command line analyse any `<csv-file>` in the following way. The placeholde `<csv-file>` is the name of the csv file you want to score.
 
     python analyse-csv.py <csv-file>
 
