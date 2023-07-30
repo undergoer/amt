@@ -34,26 +34,26 @@ At the prompt create a new environment by typing the following below.
     conda create --name amt python==3.9
     conda activate amt
 
-To pull this code into a directory called \<dir\>. This command will create the \<dir\>. The placeholder \<loc\> is the location of this github repository: https://github.com/undergoer/amt.git
+To pull this code into a directory called \<dir\>. This command will create the `<dir>`. The placeholder `<loc>` is the location of this github repository: `https://github.com/undergoer/amt.git`
 
     git clone <loc> <dir>
 
 ## Installation
 
-Navigate to your \<dir\> and ensure that your conda environment is activated as above
+Navigate to your `<dir>` and ensure that your conda environment is activated as above
 
     cd <dir>
     pip install -r requirements
 
 ## Usage
 
-On the command line analyse any <csv-file> in the following way. The placeholde \<csv-file\> is the name of the csv file you want to score.
+On the command line analyse any <csv-file> in the following way. The placeholde `<csv-file>` is the name of the csv file you want to score.
 
     python analyse-csv.py <csv-file>
 
 ## Format of the csv-file
 
-Ensure there is one column called 'respones'. If you do not have such a column then you need to specify which column (\<column-name\>) you want scored with the `-r` argument as follows.
+Ensure there is one column called 'respones'. If you do not have such a column then you need to specify which column (`<column-name>`) you want scored with the `-r` argument as follows.
 
     python analyse-csv.py <csv-file> -r <column-name>
 
