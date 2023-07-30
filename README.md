@@ -40,7 +40,7 @@ To pull this code into your
 
 ## Installation
 
-Navigate to your <dir> and ensure that your conda environment is activated as above
+Navigate to your \<dir\> and ensure that your conda environment is activated as above
 
     cd <dir>
     pip install -r requirements
