@@ -45,6 +45,12 @@ Navigate to your `<dir>` and ensure that your conda environment is activated as 
     cd <dir>
     pip install -r requirements
 
+## Obtaining the model
+
+The model is very large and needs to be stored in Dropbox. Access the model via this link below and save it in your project `<dir>`.
+
+    https://www.dropbox.com/sh/shad73x1pdqxr9x/AADRii-zJy2DRia9uvzQLRnFa?dl=0
+
 ## Usage
 
 On the command line analyse any `<csv-file>` in the following way. The placeholde `<csv-file>` is the name of the csv file you want to score.
